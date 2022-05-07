@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toast Message</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="toast">
+  </div>
+
+  <div>
+    <div class="bnt bnt--success">Show access toast</div>   
+    <div class="bnt bnt--info">Show info toast</div>   
+    <div class="bnt bnt--warning">Show warning toast</div>   
+  </div>
+
+  <script src="./toast.js"></script>
+  <script>
+    // show message toast when click button
+    $('.bnt--success').onclick = function(e) {
+      toast.show({
+        title: 'Thành công',
+        body: 'Đăng nhập thành công',
+        type: 'success',
+        duration: 5000
+      })
+    }
+    
+    $('.bnt--info').onclick = function(e) {
+      toast.show({
+        title: 'Thông báo',
+        body: 'Bạn của bạn là  vừa đăng 1 bài viết mới',
+        type: 'info',
+        duration: 5000
+      })
+    }
+    
+    $('.bnt--warning').onclick = function(e) {
+      toast.show({
+        title: 'Cảnh báo đăng nhập',
+        body: 'Vừa có một thiết bị khác đăng nhập vào tài khoản của bạn, nếu không phải là bạn, bấm vào đây để kiểm tra lại',
+        type: 'warning',
+        duration: 8000
+      })
+    }
+  </script>
+</body>
+</html>

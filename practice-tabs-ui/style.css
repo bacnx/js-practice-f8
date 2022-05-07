@@ -1,0 +1,56 @@
+.container {
+  max-width: 60rem;
+  margin: 5rem auto;
+  color: #555;
+}
+
+.tabs {
+  font-size: 1.8rem;
+  color: #e972b2;
+  position: relative;
+}
+.tabs .tab-item {
+  padding: 10px 20px 5px 20px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: 5px solid transparent;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.tabs .tab-item:hover {
+  background-color: #fc96cc17;
+  border-color: #fd97cd52;
+  color: #555;
+}
+.tabs .tab-item:hover i {
+  color: #ec238f;
+}
+.tabs .line {
+  width: 0;
+  height: 5px;
+  background-color: #ee1f91;
+  border-radius: 1rem;
+  position: absolute;
+  bottom: -1rem;
+  transform: translateY(-50%);
+  transition: all 0.2 ease;
+}
+.tabs .active {
+  color: #555;
+}
+.tabs .active i {
+  color: #ec238f;
+}
+
+.tab-content {
+  margin-top: 2rem;
+}
+.tab-content .tab-pane {
+  display: none;
+}
+.tab-content .active {
+  display: block;
+}
+
+/*# sourceMappingURL=style.css.map */
