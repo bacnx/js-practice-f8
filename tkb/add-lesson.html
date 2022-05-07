@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thêm tiết học</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .container {
+      border: 2px solid #eee;
+      border-radius: 8px;
+      padding: 60px;
+    }
+    input[type="text"],
+    input[type="text"]::before,
+    button {
+      display: block;
+    }
+    input[type="text"] {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <label for="name">Tên</label>
+    <input type="text" id="name" autocomplete="off">
+    <label for="room">Phòng</label>
+    <input type="text" id="room" autocomplete="off">
+    <label for="time">Thời gian</label>
+    <input type="text" id="time" autocomplete="off">
+    <label for="lecturer">Giảng viên</label>
+    <input type="text" id="lecturer" autocomplete="off">
+
+    <!-- <label for="day">Thứ: </label> -->
+    <select name="day" id="day">
+      <option value="">Thứ</option>
+      <option value="2">Thứ 2</option>
+      <option value="3">Thứ 3</option>
+      <option value="4">Thứ 4</option>
+      <option value="5">Thứ 5</option>
+      <option value="6">Thứ 6</option>
+      <option value="7">Thứ 7</option>
+    </select>
+
+    <label for="lesson-from">Từ tiết: </label>
+    <select name="lesson-from" id="lesson-from">
+      <option value="">___</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+      <option value="11">11</option>
+      <option value="12">12</option>
+    </select>
+    <label for="lesson-to">Đến tiết: </label>
+    <select name="lesson-to" id="lesson-to">
+      <option value="">___</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+      <option value="11">11</option>
+      <option value="12">12</option>
+    </select>
+
+    <button id="add-lesson">Thêm</button>
+  </div>
+
+  <script src="./js/add-lesson.js"></script>
+</body>
+</html>

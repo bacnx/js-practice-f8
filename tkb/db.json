@@ -1,0 +1,124 @@
+{
+  "subjects": [
+    {
+      "name": "Vật lý 1",
+      "room": "A2-303",
+      "time": "15g10 -> 17g50",
+      "lecturer": "Nguyễn Hoàng Hải",
+      "day": 2,
+      "lesson": {
+        "from": 10,
+        "to": 12
+      },
+      "id": 1
+    },
+    {
+      "name": "Thí nghiệm Vật lý 1",
+      "room": "A5-404B",
+      "time": "08g50 -> 10g30",
+      "lecturer": "Lê Thị Thu Hà",
+      "day": 3,
+      "lesson": {
+        "from": 3,
+        "to": 4
+      },
+      "id": 2
+    },
+    {
+      "name": "Tư duy hệ thống",
+      "room": "A4-404",
+      "time": "07g00 -> 08g40",
+      "lecturer": "Dương Thị Kim Oanh",
+      "day": 3,
+      "lesson": {
+        "from": 1,
+        "to": 2
+      },
+      "id": 3
+    },
+    {
+      "name": "Giáo dục thể chất 1",
+      "room": "05SVD1",
+      "time": "07g00 -> 08g40",
+      "lecturer": "Nguyễn Hùng Anh",
+      "day": 4,
+      "lesson": {
+        "from": 1,
+        "to": 2
+      },
+      "id": 4
+    },
+    {
+      "name": "Kinh tế chính trị Mác - Lênin",
+      "room": "A2-201",
+      "time": "14g20 -> 16g00",
+      "lecturer": "Nguyễn Thị Quyết",
+      "day": 4,
+      "lesson": {
+        "from": 9,
+        "to": 10
+      },
+      "id": 5
+    },
+    {
+      "name": "Toán 2",
+      "room": "A2-301",
+      "time": "09g40 -> 12g20",
+      "lecturer": "Võ Thị Vân Anh",
+      "day": 4,
+      "lesson": {
+        "from": 4,
+        "to": 6
+      },
+      "id": 6
+    },
+    {
+      "name": "Chủ nghĩa xã hội khoa học",
+      "room": "A4-202",
+      "time": "08g50 -> 10g30",
+      "lecturer": "Nguyễn Thị Quyết",
+      "day": 5,
+      "lesson": {
+        "from": 3,
+        "to": 4
+      },
+      "id": 7
+    },
+    {
+      "name": "Giáo dục quốc phòng 3",
+      "room": "QPNT17",
+      "time": "12g30 -> 17g50",
+      "lecturer": "Nguyễn Văn Úy",
+      "day": 5,
+      "lesson": {
+        "from": 7,
+        "to": 12
+      },
+      "id": 8
+    },
+    {
+      "name": "Kỹ thuật lập trình",
+      "room": "A3-303 & A3-305",
+      "time": "07g00 -> 10g30",
+      "lecturer": "Trần Công Tú",
+      "day": 6,
+      "lesson": {
+        "from": 1,
+        "to": 4
+      },
+      "id": 9
+    },
+    {
+      "name": "Xác suất – Thống kê ứng dụng",
+      "room": "A2-302",
+      "time": "13g20 -> 16g00",
+      "lecturer": "Nguyễn Hồng Nhung",
+      "day": 7,
+      "lesson": {
+        "from": 8,
+        "to": 10
+      },
+      "id": 10
+    }
+  ]
+}
